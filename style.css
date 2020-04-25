@@ -1,0 +1,73 @@
+header .main-navbar {
+	display: flex;
+}
+
+header .navbar-item-wrapper {
+	display:inline-flex;
+}
+
+header .navbar-item {
+	display: block;
+	padding: 10px;
+	margin-right: 10px;
+	background: #00ffff;
+	border-radius: 8px;
+	text-decoration: none;
+	color: #fff;
+}
+
+header h1 {
+	text-align: center;
+}
+
+main {
+	display: flex;
+}
+
+article {
+	display: inline-flex;
+	margin-right: 20px;
+	height: 250px;
+	border: 3px solid #f00;
+	background: #F08080;
+}
+
+aside .main-form {
+	position:fixed;
+	top: 40px;
+	right: 50px;
+	padding: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 10px;
+}
+
+aside .email-input {
+	margin-top: 10px;
+	font-size: 13px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: #f6f6f6;
+	border-radius: 8px;
+}
+
+
+aside .email-input::focus {
+	outline: none;
+  	padding: 3px 0px 3px 3px;
+  	margin: 5px 1px 3px 0px;
+  	border: 1px solid #dddddd;
+  	border-radius: 8px;
+}
+
+aside .btn {
+	padding: 5px;
+	background: #00ffff;
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+}
+
+footer div {
+	margin-top: 10px;
+	text-align: center;
+}
